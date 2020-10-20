@@ -1,0 +1,17 @@
+ja:
+  activerecord:
+    models:
+      post: "ポスト"
+      user:
+    attributes:
+      post:
+        content: "文" 
+      user:
+        name: "名前"
+        email: "メールアドレス"
+        
+  time:
+    formats:
+      default: ! '%Y/%m/%d'
+      long: ! '%Y年%m月%d日(%a) %H時%M分%S秒 %z'
+      short: ! '%Y年%m月%d日 %H:%M'    
